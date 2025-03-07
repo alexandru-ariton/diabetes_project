@@ -1,7 +1,5 @@
-
 ---
 
-### **GitHub-Optimized README for Predicting Diabetes Using Machine Learning**
 ```md
 # 🩺 Predicting Diabetes Using Machine Learning
 
@@ -44,7 +42,6 @@ A **data mining project** that applies machine learning techniques to predict di
 
 ## 📂 Repository Structure
 
-```plaintext
 📁 Predicting-Diabetes
 │── 📂 data               # Dataset files
 │── 📂 scripts            # Machine learning models & analysis
