@@ -7,15 +7,15 @@ A data mining project that applies machine learning techniques to predict diabet
 Dataset: Pima Indians Diabetes Dataset (Kaggle)
 Objective: Predict whether an individual has diabetes based on health attributes.
 Algorithms Used:
-Logistic Regression
-Random Forest
-XGBoost
-K-Nearest Neighbors (KNN)
+✅ Logistic Regression
+✅ Random Forest
+✅ XGBoost
+✅ K-Nearest Neighbors (KNN)
 Evaluation Metrics:
-ROC-AUC
-Sensitivity & Specificity
-Precision & Recall
-F1 Score
+🎯 ROC-AUC
+🎯 Sensitivity & Specificity
+🎯 Precision & Recall
+🎯 F1 Score
 
 📊 Features Used
 
