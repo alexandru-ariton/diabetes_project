@@ -84,15 +84,6 @@ source("cod.R")
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 📩 Contact
-
-
 👥 Contributors:  
 - Ariton Alexandru  
 - Bucur Alexia-Gabriela  
