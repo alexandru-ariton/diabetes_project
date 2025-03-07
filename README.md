@@ -1,88 +1,102 @@
-project:
-  name: "Predicting Diabetes Using Machine Learning"
-  description: "A Data Mining Principles project focused on predicting diabetes using various machine learning models, including Random Forest, XGBoost, Logistic Regression, and KNN."
-  author: "Group 1139 (Ariton Alexandru, Bucur Alexia-Gabriela, Coman Alex, Cojocaru Florin)"
-  institution: "Bucharest University of Economic Studies"
-  year: 2025
+# 📌 Predicting Diabetes Using Machine Learning
 
-setup:
-  dependencies:
-    - R
-    - caret
-    - tidyverse
-    - MASS
-    - mlbench
-    - summarytools
-    - corrplot
-    - gridExtra
-    - timeDate
-    - pROC
-    - caTools
-    - rpart.plot
-    - e1071
-    - graphics
-  dataset:
-    source: "Pima Indians Diabetes Dataset (Kaggle)"
-    features:
-      - Pregnant
-      - Glucose
-      - Pressure
-      - Triceps
-      - Insulin
-      - Mass (BMI)
-      - Pedigree
-      - Age
-      - Diabetes (Target Variable)
-  installation:
-    steps:
-      - "Install required R packages using install.packages()"
-      - "Download the dataset and place it in the working directory"
-      - "Run the R script (cod.R) to execute the analysis"
+**A Data Mining Principles project focused on predicting diabetes using machine learning models.**  
+This study applies various ML techniques to predict diabetes, using the **Pima Indians Diabetes Dataset**.
 
-data_analysis:
-  preprocessing:
-    - Convert diabetes column to factor (pos/neg)
-    - Split dataset into training (70%) and testing (30%)
-    - Handle missing values and outliers
-  visualization:
-    - Generate univariate and bivariate analysis plots
-    - Compute correlation matrix and visualize with corrplot
-  models:
-    - Random Forest
-    - XGBoost
-    - K-Nearest Neighbors (KNN)
-    - Logistic Regression
-  evaluation:
-    - Sensitivity, Specificity, Precision, Recall, F1 Score
-    - ROC Curve and AUC
-    - Confusion Matrix
+---
 
-usage:
-  commands:
-    - "source('cod.R') # Runs the full pipeline"
-  expected_output:
-    - Model comparison plots
-    - Performance metrics
-    - ROC curves and confusion matrices
+## 📂 Project Overview
 
-conclusion:
-  key_findings:
-    - Logistic Regression outperformed other models
-    - Glucose and BMI were the strongest predictors
-    - The dataset showed imbalance in some variables
-  future_work:
-    - Try deep learning models (e.g., neural networks)
-    - Improve feature engineering
-    - Address class imbalance with SMOTE
+- **Authors**: Ariton Alexandru, Bucur Alexia-Gabriela, Coman Alex, Cojocaru Florin  
+- **Institution**: Bucharest University of Economic Studies  
+- **Year**: 2025  
+- **Dataset**: [Pima Indians Diabetes Dataset (Kaggle)](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
 
-license:
-  type: "MIT"
-  details: "This project is open-source and can be modified and shared under the MIT license."
+---
 
-contact:
-  email: "your-email@example.com"
-  contributors:
-    - "Ariton Alexandru"
-    - "Bucur Alexia-Gabriela"
-    - "Coman Alex"
-    - "Cojocaru Florin"
+## 🛠 Setup & Dependencies
+
+### 🔹 Required R Packages:
+```r
+install.packages(c("caret", "tidyverse", "MASS", "mlbench", "summarytools",
+                   "corrplot", "gridExtra", "timeDate", "pROC", "caTools", 
+                   "rpart.plot", "e1071", "graphics"))
+```
+
+### 🔹 Installation Steps:
+1. Install the required R packages listed above.
+2. Download the dataset and place it in the working directory.
+3. Run the R script:
+   ```r
+   source("cod.R")
+   ```
+
+---
+
+## 🔍 Data Analysis
+
+### **Preprocessing**
+✔ Convert diabetes column to **factor** (pos/neg)  
+✔ Split dataset into **training (70%)** and **testing (30%)**  
+✔ Handle **missing values** and **outliers**  
+
+### **Visualization**
+📊 Univariate and Bivariate Analysis  
+📉 Correlation Matrix with `corrplot`  
+
+### **Machine Learning Models**
+✅ **Random Forest**  
+✅ **XGBoost**  
+✅ **K-Nearest Neighbors (KNN)**  
+✅ **Logistic Regression**  
+
+### **Performance Metrics**
+📌 Sensitivity, Specificity, Precision, Recall, F1 Score  
+📈 ROC Curve & AUC, Confusion Matrix  
+
+---
+
+## 🎯 Usage
+
+To run the full pipeline:
+```r
+source("cod.R")
+```
+
+### **Expected Outputs**
+✔ Model comparison plots  
+✔ Performance metrics  
+✔ ROC curves & confusion matrices  
+
+---
+
+## 📊 Results & Conclusion
+
+### **Key Findings**
+✔ **Logistic Regression** performed the best  
+✔ **Glucose & BMI** are strong predictors of diabetes  
+✔ The dataset contains some **imbalanced variables**  
+
+### **Future Work**
+🚀 Experiment with **Deep Learning** models (e.g., Neural Networks)  
+⚙️ Improve **Feature Engineering**  
+⚖️ Address **Class Imbalance** using **SMOTE**  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📩 Contact
+
+
+👥 Contributors:  
+- Ariton Alexandru  
+- Bucur Alexia-Gabriela  
+- Coman Alex  
+- Cojocaru Florin  
+
+---
